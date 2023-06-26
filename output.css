@@ -534,8 +534,16 @@ video {
   position: relative;
 }
 
+.m-0 {
+  margin: 0px;
+}
+
 .block {
   display: block;
+}
+
+.flex {
+  display: flex;
 }
 
 .table {
@@ -550,6 +558,38 @@ video {
   display: none;
 }
 
+.h-\[\] {
+  height: ;
+}
+
+.h-\[65px\] {
+  height: 65px;
+}
+
+.h-\[60px\] {
+  height: 60px;
+}
+
+.h-\[66px\] {
+  height: 66px;
+}
+
+.w-\[12px\] {
+  width: 12px;
+}
+
+.w-px {
+  width: 1px;
+}
+
+.w-\[40px\] {
+  width: 40px;
+}
+
+.w-\[44px\] {
+  width: 44px;
+}
+
 .border-collapse {
   border-collapse: collapse;
 }
@@ -562,8 +602,21 @@ video {
   resize: both;
 }
 
+.flex-col {
+  flex-direction: column;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
 .border {
   border-width: 1px;
+}
+
+.bg-\[\#eae0d2\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(234 224 210 / var(--tw-bg-opacity));
 }
 
 .bg-black {
@@ -571,9 +624,42 @@ video {
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
+.p-0 {
+  padding: 0px;
+}
+
+.px-\[12px\] {
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.py-0 {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.py-\[12px\] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.px-0 {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.align-middle {
+  vertical-align: middle;
+}
+
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -585,10 +671,19 @@ video {
   color: rgb(240 253 244 / var(--tw-text-opacity));
 }
 
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 .underline {
   text-decoration-line: underline;
 }
 
 .outline {
   outline-style: solid;
+}
+
+nav{
+  font-family: 'Ubuntu', sans-serif;
 }
